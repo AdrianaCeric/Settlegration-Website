@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
-  border-top-color: #d2f9eb;
+  border: 6px solid #a94be7;
+  border-top-color: #dad2f9;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(86, 1, 136, 0.9);
 }
 
 #header.header-transparent {
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(86, 1, 136, 0.9);
   height: 60px;
 }
 
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #01036f;
+  color: #9b05c0;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -284,6 +284,10 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
+}
+
+#nav-logo {
+  margin-top: 100px;
 }
 
 /* Mobile Navigation */
@@ -414,9 +418,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
 }
